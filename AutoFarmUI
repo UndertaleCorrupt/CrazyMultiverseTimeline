@@ -73,7 +73,7 @@ AutoFarmOff.TextWrapped = true
 OPEN.Name = "OPEN"
 OPEN.Parent = CrazyMultiverseObbyTP
 OPEN.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-OPEN.Position = UDim2.new(0.0140624996, 0, 0.426686227, 0)
+OPEN.Position = UDim2.new(0.0437499993, 0, 0.0850439966, 0)
 OPEN.Size = UDim2.new(0, 105, 0, 37)
 OPEN.Font = Enum.Font.SourceSans
 OPEN.Text = "OPEN"
@@ -85,7 +85,7 @@ OPEN.TextWrapped = true
 CLOSE.Name = "CLOSE"
 CLOSE.Parent = CrazyMultiverseObbyTP
 CLOSE.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-CLOSE.Position = UDim2.new(0.0140624996, 0, 0.426686227, 0)
+CLOSE.Position = UDim2.new(0.0437499993, 0, 0.0850439966, 0)
 CLOSE.Size = UDim2.new(0, 105, 0, 37)
 CLOSE.Visible = false
 CLOSE.Font = Enum.Font.SourceSans
@@ -97,7 +97,7 @@ CLOSE.TextWrapped = true
 
 -- Scripts:
 
-local function FTBSYD_fake_script() -- AutoFarmOn.LocalScript 
+local function KNIVV_fake_script() -- AutoFarmOn.LocalScript 
 	local script = Instance.new('LocalScript', AutoFarmOn)
 
 	
@@ -113,8 +113,8 @@ local function FTBSYD_fake_script() -- AutoFarmOn.LocalScript
 		end
 	end)
 end
-coroutine.wrap(FTBSYD_fake_script)()
-local function PJAV_fake_script() -- AutoFarmOff.LocalScript 
+coroutine.wrap(KNIVV_fake_script)()
+local function LBRJR_fake_script() -- AutoFarmOff.LocalScript 
 	local script = Instance.new('LocalScript', AutoFarmOff)
 
 	game.Players.LocalPlayer.PlayerGui.CrazyMultiverseObbyTP.TPFrameWhite.TPFrameBlack.AutoFarmOff.MouseButton1Click:Connect(function()
@@ -122,8 +122,8 @@ local function PJAV_fake_script() -- AutoFarmOff.LocalScript
 			
 		end)
 end
-coroutine.wrap(PJAV_fake_script)()
-local function AFQRB_fake_script() -- OPEN.LocalScript 
+coroutine.wrap(LBRJR_fake_script)()
+local function AUAVOML_fake_script() -- OPEN.LocalScript 
 	local script = Instance.new('LocalScript', OPEN)
 
 	game.Players.LocalPlayer.PlayerGui.CrazyMultiverseObbyTP.OPEN.MouseButton1Click:Connect(function()
@@ -133,8 +133,8 @@ local function AFQRB_fake_script() -- OPEN.LocalScript
 		game.Players.LocalPlayer.PlayerGui.CrazyMultiverseObbyTP.CLOSE.Visible = true
 		end)
 end
-coroutine.wrap(AFQRB_fake_script)()
-local function IVSF_fake_script() -- CLOSE.LocalScript 
+coroutine.wrap(AUAVOML_fake_script)()
+local function DBQNU_fake_script() -- CLOSE.LocalScript 
 	local script = Instance.new('LocalScript', CLOSE)
 
 	game.Players.LocalPlayer.PlayerGui.CrazyMultiverseObbyTP.CLOSE.MouseButton1Click:Connect(function()
@@ -145,4 +145,4 @@ local function IVSF_fake_script() -- CLOSE.LocalScript
 	
 		end)
 end
-coroutine.wrap(IVSF_fake_script)()
+coroutine.wrap(DBQNU_fake_script)()
